@@ -5,7 +5,7 @@
 2. Em **Database Access**, crie um usuário e senha.
 3. Em **Network Access**, libere seu IP (ou 0.0.0.0/0 para testes).
 4. Copie a **Connection String** (driver MongoDB, `mongodb+srv://...`).
-5. Faça uma cópia de `.env.example` para `.env` e cole sua string na `MONGO_URL`.
+5. Crie o `.env` e cole sua string na `MONGO_URL`.
 6. Rode localmente:
 
 ```bash
